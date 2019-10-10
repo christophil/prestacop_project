@@ -1,0 +1,36 @@
+[2019-10-10T16:38:35.473-0100][gc,heap] Heap region size: 1M
+[2019-10-10T16:38:35.481-0100][gc     ] Using G1
+[2019-10-10T16:38:35.481-0100][gc,heap,coops] Heap address: 0x00000007e0000000, size: 512 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2019-10-10T16:38:35.481-0100][gc,cds       ] Mark closed archive regions in map: [0x00000007fff00000, 0x00000007fff6fff8]
+[2019-10-10T16:38:35.481-0100][gc,cds       ] Mark open archive regions in map: [0x00000007ffe00000, 0x00000007ffe45ff8]
+[2019-10-10T16:38:35.500-0100][gc           ] Periodic GC disabled
+[2019-10-10T16:52:33.211-0100][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2019-10-10T16:52:33.221-0100][gc,task      ] GC(0) Using 8 workers of 8 for evacuation
+[2019-10-10T16:52:33.288-0100][gc,mmu       ] GC(0) MMU target violated: 21.0ms (20.0ms/21.0ms)
+[2019-10-10T16:52:33.288-0100][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0.9ms
+[2019-10-10T16:52:33.288-0100][gc,phases    ] GC(0)   Evacuate Collection Set: 58.4ms
+[2019-10-10T16:52:33.288-0100][gc,phases    ] GC(0)   Post Evacuate Collection Set: 2.5ms
+[2019-10-10T16:52:33.289-0100][gc,phases    ] GC(0)   Other: 20.2ms
+[2019-10-10T16:52:33.290-0100][gc,heap      ] GC(0) Eden regions: 25->0(21)
+[2019-10-10T16:52:33.290-0100][gc,heap      ] GC(0) Survivor regions: 0->4(4)
+[2019-10-10T16:52:33.290-0100][gc,heap      ] GC(0) Old regions: 0->1
+[2019-10-10T16:52:33.290-0100][gc,heap      ] GC(0) Archive regions: 2->2
+[2019-10-10T16:52:33.290-0100][gc,heap      ] GC(0) Humongous regions: 0->0
+[2019-10-10T16:52:33.290-0100][gc,metaspace ] GC(0) Metaspace: 7160K->7160K(1056768K)
+[2019-10-10T16:52:33.290-0100][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->5M(512M) 80.665ms
+[2019-10-10T16:52:33.290-0100][gc,cpu       ] GC(0) User=0.04s Sys=0.12s Real=0.09s
+[2019-10-10T17:38:58.917-0100][gc,start     ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2019-10-10T17:38:58.919-0100][gc,task      ] GC(1) Using 8 workers of 8 for evacuation
+[2019-10-10T17:38:59.105-0100][gc,mmu       ] GC(1) MMU target violated: 21.0ms (20.0ms/21.0ms)
+[2019-10-10T17:38:59.105-0100][gc,phases    ] GC(1)   Pre Evacuate Collection Set: 11.2ms
+[2019-10-10T17:38:59.105-0100][gc,phases    ] GC(1)   Evacuate Collection Set: 168.6ms
+[2019-10-10T17:38:59.105-0100][gc,phases    ] GC(1)   Post Evacuate Collection Set: 0.5ms
+[2019-10-10T17:38:59.105-0100][gc,phases    ] GC(1)   Other: 11.0ms
+[2019-10-10T17:38:59.105-0100][gc,heap      ] GC(1) Eden regions: 21->0(24)
+[2019-10-10T17:38:59.105-0100][gc,heap      ] GC(1) Survivor regions: 4->1(4)
+[2019-10-10T17:38:59.105-0100][gc,heap      ] GC(1) Old regions: 1->5
+[2019-10-10T17:38:59.105-0100][gc,heap      ] GC(1) Archive regions: 2->2
+[2019-10-10T17:38:59.105-0100][gc,heap      ] GC(1) Humongous regions: 0->0
+[2019-10-10T17:38:59.105-0100][gc,metaspace ] GC(1) Metaspace: 7188K->7188K(1056768K)
+[2019-10-10T17:38:59.105-0100][gc           ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 26M->5M(512M) 188.699ms
+[2019-10-10T17:38:59.105-0100][gc,cpu       ] GC(1) User=0.03s Sys=0.08s Real=0.19s
